@@ -19,3 +19,16 @@ suspension_coil <- read.csv(file='Suspension_Coil.csv', check.names = FALSE, str
 total_summary <- suspension_coil %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
 #Lot Summary Dataframe
 lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
+
+
+#Deliverable 3
+#Determine if PSI across all lots is statistically different from the population mean (1,500 PSI)
+Lot1 = subset(suspension_coil, Manufacturing_Lot == 'Lot1')
+Lot2 = subset(suspension_coil, Manufacturing_Lot == 'Lot2')
+Lot3 = subset(suspension_coil, Manufacturing_Lot == 'Lot3')
+t.test(Lot1$PSI, mu = 1500)
+# p-value: 1
+t.test(Lot2$PSI, mu = 1500)
+# p-value: 0.6072
+t.test(Lot3$PSI, mu = 1500)
+# p-value: 0.04168
