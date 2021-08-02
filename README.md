@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
  
 ## Linear Regression to Predict MPG
-[PICTURE]
+![Linear_Regression_MPG_Prediction](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Linear%20Regression%20MPG%20Prediction.PNG)
 Given that the variance of a non-random variable is usually 0, the fact that the intercept, ground clearance, and vehicle length coefficients provide an amount of varience to the MPG values that are non-random.
 
 We are able to regect the null hypothesis because of the incredibly small p-value of 5.35e-11, well below the significance level of 0.05. By rejecting the null hypothesis we can conclude that the slope is not 0.
@@ -10,8 +10,8 @@ The adjusted r-squared of 0.6825 shows that this linear model predicts the MPG f
 
 ## Summary Statistics on Suspension Coils
 
-[TOTAL SUMMARY]
-[LOT SUMMARY]
+![TOTAL_SUMMARY](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary.PNG)
+![LOT_SUMMARY](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary.PNG)
 
 Most notably when we separate the dataset into 3 different lots, the third lot has a much larger variance, even when the overall variance for the entire dataset indicates that all manufacturing data meets the 100 pounds per square inch variance limitation.
 
@@ -19,11 +19,11 @@ Since the lots were chosen randomly, it is possible that a large subsection of t
 
 ## T-Tests on Suspension Coils
 
-[WHOLE_LOT]
+![WHOLE_LOT](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Whole_Lot.PNG)
 
 We can not reject that the sample mean may be equivilent to the true population mean as, at a standard significance level of 0.05 we reject the null hypothesis since our p-value equals 0.06. Additionally, since the confidence interval is very narrow, this implies that there is a slighter chance of coming across an observation that is within that interval, there is greater confidence than the alternative of a wider confidence interval.
 
-[THREE_LOTS]
+![THREE_LOTS](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Three_Lots.PNG)
 
 ### Lot 1
 Lot 1 fails to reject the null hypothesis as the p-value is equal to 1. The confidence interval is also very small, thus implying that there is more precision for predicting the population mean.
