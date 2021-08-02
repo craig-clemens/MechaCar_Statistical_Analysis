@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
  
 ## Linear Regression to Predict MPG
-![Linear_Regression_MPG_Prediction](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Linear%20Regression%20MPG%20Prediction.PNG)
+![Linear_Regression_MPG_Prediction](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Linear_Regression_MPG_Prediction.PNG)
 Given that the variance of a non-random variable is usually 0, the fact that the intercept, ground clearance, and vehicle length coefficients provide an amount of varience to the MPG values that are non-random.
 
 We are able to regect the null hypothesis because of the incredibly small p-value of 5.35e-11, well below the significance level of 0.05. By rejecting the null hypothesis we can conclude that the slope is not 0.
