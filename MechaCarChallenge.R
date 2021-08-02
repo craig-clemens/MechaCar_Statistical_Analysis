@@ -22,7 +22,6 @@ lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mea
 
 
 #Deliverable 3
-#Determine if PSI across all lots is statistically different from the population mean (1,500 PSI)
 t.test(suspension_coil$PSI, mu = 1500)
 Lot1 = subset(suspension_coil, Manufacturing_Lot == 'Lot1')
 Lot2 = subset(suspension_coil, Manufacturing_Lot == 'Lot2')
