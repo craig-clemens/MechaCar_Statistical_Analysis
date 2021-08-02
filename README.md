@@ -11,6 +11,7 @@ The adjusted r-squared of 0.6825 shows that this linear model predicts the MPG f
 ## Summary Statistics on Suspension Coils
 
 ![TOTAL_SUMMARY](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary.PNG)
+###
 ![LOT_SUMMARY](https://github.com/craig-clemens/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary.PNG)
 
 Most notably when we separate the dataset into 3 different lots, the third lot has a much larger variance, even when the overall variance for the entire dataset indicates that all manufacturing data meets the 100 pounds per square inch variance limitation.
