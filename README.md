@@ -17,3 +17,23 @@ Most notably when we separate the dataset into 3 different lots, the third lot h
 
 Since the lots were chosen randomly, it is possible that a large subsection of the sample does not meet the necessary requirements for suspension coils.
 
+## T-Tests on Suspension Coils
+
+[WHOLE_LOT]
+
+We can not reject that the sample mean may be equivilent to the true population mean as, at a standard significance level of 0.05 we reject the null hypothesis since our p-value equals 0.06. Additionally, since the confidence interval is very narrow, this implies that there is a slighter chance of coming across an observation that is within that interval, there is greater confidence than the alternative of a wider confidence interval.
+
+[THREE_LOTS]
+
+### Lot 1
+Lot 1 fails to reject the null hypothesis as the p-value is equal to 1. The confidence interval is also very small, thus implying that there is more precision for predicting the population mean.
+
+### Lot 2
+This also fails to reject the null hypothesis with a p-vaule of 0.6072. As with Lot 1, this second lot alos has a small confidence interval
+
+### Lot 3
+This lot fails to reject the null hypotheis with a p-value of 0.04168. Our sample mean is significantly smaller than the other two lots, and more importantly, the confidence interval for the lot three does not include the predicted population mean.
+
+## Study Design: MechaCar vs Competition
+In order to compare MechaCar's standing versus it's competition we could conduct another statistical study of linear regression on city and highway fuel efficiency. With the price of fuel ever increasing from it's all-time high, fuel efficiency is a primary feature that consumers consider when purchasing a vehicle. Included metrics could be: city and highway fuel efficiency (dependent variable); horse power (independent variable); vehicle weight (independent variable); AWD capabilities (independent variable); MPG (independent variable). 
+Additionally, we would also need to collect all data regarding fuel efficiency and horse power data for the sample we have been given.
